@@ -1,0 +1,67 @@
+.profile {
+    background-color: white;
+    border-radius: 6px ;
+    width: 100%;
+    display: inline-block;
+}
+
+.profile_name {
+    line-height: 18px;
+    padding: 20px;
+}
+
+.profile_name .name{
+    text-transform: uppercase ;
+    font-size: 17px ;
+    font-weight: bold ;
+}
+
+.profile_name .title{
+    font-size: 13px ;
+    color: #777 ;
+}
+
+.profile_image {
+   
+    margin-top:-10px;
+    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    clip-path: polygon( 0 9%, 100% 0, 100% 94%, 0% 100%)
+}
+
+.profile_image img {
+       width:100%; 
+  }
+
+.profile_information {
+   top: 0;
+    left: 0;
+    margin: -38px 10px 30px;
+}*/
+
+/*How does this target the profile info?*/
+.profile_information .timeline .timeline_content {
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+.timeline_text{
+    font-size: 13.5px !important;
+    font-weight: 400 ;
+    color: #787878
+}
+
+.timeline_text > a {
+    color: #787878;
+    text-decoration: none;
+}
+
+.timeline_text > span {
+    color: black;
+}
+
+.profile .button_container {
+    width: 100%;
+    display: 'flex' !important;
+    justify-content: center;
+    margin-top: 20px;
+}
